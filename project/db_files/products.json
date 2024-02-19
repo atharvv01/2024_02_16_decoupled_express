@@ -1,0 +1,34 @@
+[
+  {
+    "productId": 1,
+    "productName": "Samsung",
+    "description": "Android phone",
+    "price": 50000,
+    "stock": 88,
+    "imageUrl": "https://example.com/productA.jpg"
+  },
+  {
+    "productId": 2,
+    "productName": "Apple",
+    "description": "IOS phone",
+    "price": 100000,
+    "stock": 26,
+    "imageUrl": "https://example.com/productB.jpg"
+  },
+  {
+    "productId": 3,
+    "productName": "Asus",
+    "description": "Gaming laptop",
+    "price": 62000,
+    "stock": 10,
+    "imageUrl": "https://example.com/productC.jpg"
+  },
+  {
+    "productId": 5,
+    "productName": "New Product",
+    "description": "Newly added product through post_product",
+    "price": 50,
+    "stock": 18,
+    "imageUrl": "https://example.com/prod.jpg"
+  }
+]
