@@ -505,7 +505,7 @@ function handleJsonBackend(app) {
 
         // Write the updated data back to the external JSON file
         fs.writeFileSync(
-            "products.json",
+            "./db_files/products.json",
             JSON.stringify(productsData, null, 2),
             "utf8"
         );
@@ -541,7 +541,7 @@ function handleJsonBackend(app) {
 
             // Write the updated product data back to the external JSON file
             fs.writeFileSync(
-                "products.json",
+                "./db_files/products.json",
                 JSON.stringify(productsData, null, 2),
                 "utf8"
             );
@@ -578,7 +578,7 @@ function handleJsonBackend(app) {
 
             // Write the updated data back to the external JSON file
             fs.writeFileSync(
-                "products.json",
+                "./db_files/products.json",
                 JSON.stringify(productsData, null, 2),
                 "utf8"
             );
@@ -616,7 +616,7 @@ function handleJsonBackend(app) {
             orderData[orderIndex].O_ID = uuidv4();
 
             // Write the updated data back to the external JSON file
-            fs.writeFileSync("order.json", JSON.stringify(orderData, null, 2), "utf8");
+            fs.writeFileSync("./db_files/orders.json", JSON.stringify(orderData, null, 2), "utf8");
 
             // Respond with success and updated order details
             res.json({
@@ -674,7 +674,7 @@ function handleJsonBackend(app) {
 
                 // Write the updated product data back to the external JSON file
                 fs.writeFileSync(
-                    "products.json",
+                    "./db_files/products.jsonn",
                     JSON.stringify(productsData, null, 2),
                     "utf8"
                 );
@@ -684,7 +684,7 @@ function handleJsonBackend(app) {
 
                 // Write the updated order data back to the external JSON file
                 fs.writeFileSync(
-                    "order.json",
+                    "./db_files/orders.json",
                     JSON.stringify(orderData, null, 2),
                     "utf8"
                 );

@@ -1,17 +1,9 @@
 [
   {
-    "O_ID": "0ef04f7b-1c9e-40a9-b55b-298185b6e945",
-    "O_Address": "Bangalore",
-    "O_P_ID": "2",
-    "O_status": "pending",
-    "O_totalcost": 200000,
-    "order_quantity": "2"
-  },
-  {
-    "O_ID": "",
-    "O_Address": "Sample Address",
+    "O_ID": "6306d3a8-8bf0-49ef-b1fd-e73e9bfe85b9",
+    "O_Address": "mumbai",
     "O_P_ID": "3",
-    "O_status": "Pending",
+    "O_status": "pending",
     "O_totalcost": 124000,
     "order_quantity": "2"
   },

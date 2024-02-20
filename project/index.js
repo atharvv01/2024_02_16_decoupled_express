@@ -14,7 +14,7 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // Specify the type of database you want to connect to (e.g., 'json' or 'mongo')
-const dbType = 'json';
+const dbType = 'mongo';
 
 // Connect to the database based on the specified type
 connectToDatabase(dbType);
